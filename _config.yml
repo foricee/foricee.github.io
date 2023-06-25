@@ -30,7 +30,8 @@ url: "https://foricee.github.io" # the base hostname & protocol for your site, e
 github_username:  foricee
 
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
+markdown: kramdown
 plugins:
   - jekyll-feed
 
