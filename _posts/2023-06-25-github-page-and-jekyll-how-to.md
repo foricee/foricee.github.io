@@ -25,7 +25,7 @@ bundle install
 
 本地启动服务器，修改_config文件后要重新启动才能加载变更
 ```bash
-jekyll new --skip-bundle .
+bundle exec jekyll serve
 ```
 
 # 公式支持
