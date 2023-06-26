@@ -40,12 +40,12 @@ paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 
 # 没弄明白，好像要加好多文件，暂时关闭吧
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
+#category_archive:
+#  type: liquid
+#  path: /categories/
+#tag_archive:
+#  type: liquid
+#  path: /tags/
 
 # 默认配置
 defaults:
@@ -60,20 +60,14 @@ defaults:
       toc_label: "目录"
       
 author:
-  name: "Your Name"
-  avatar: "/assets/images/bio-photo.jpg"
-  bio: "I am an **amazing** person." # Note: Markdown is allowed
-  location: "Somewhere"
+  name: "hdgao"
+#  avatar: "/assets/images/bio-photo.jpg"
+  bio: "省流助手" # Note: Markdown is allowed
+  location: "China"
   links:
-    - label: "Made Mistakes"
-      icon: "fas fa-fw fa-link"
-      url: "https://mademistakes.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/mmistakes"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/mmistakes"
+      url: "https://github.com/foricee"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
