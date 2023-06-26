@@ -6,13 +6,17 @@ tags:
 ---
 
 # theme
-用的github排名第一的minimal-mistakes，https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+用的github排名第一的minimal-mistakes，[https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
 
 # tags,category
 tags可以用，category不建议用，加了会改变文章链接（以category为前缀，如果改类目了不方便）
 
+# 字体
+
+[https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
+
 # 本机测试
-https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll
+[https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll)
 
 新增了gem包，需要执行下面命令
 ```bash
@@ -25,7 +29,7 @@ jekyll new --skip-bundle .
 ```
 
 # 公式支持
-可以参考：https://stackoverflow.com/questions/26275645/how-to-support-latex-in-github-pages
+可以参考：[https://stackoverflow.com/questions/26275645/how-to-support-latex-in-github-pages](https://stackoverflow.com/questions/26275645/how-to-support-latex-in-github-pages)
 
 theme不同，方法略有不同
 
@@ -36,9 +40,9 @@ theme不同，方法略有不同
 * 在两个{\{中间加一个空格
 * 用{% raw %} ... {% endraw %}把公式包起来
 
-https://talk.jekyllrb.com/t/jekyll-liquid-problem-with-a-mathjax-expression/7847/5
+[https://talk.jekyllrb.com/t/jekyll-liquid-problem-with-a-mathjax-expression/7847/5](https://talk.jekyllrb.com/t/jekyll-liquid-problem-with-a-mathjax-expression/7847/5)
 
-https://jekyllrb.com/docs/front-matter/
+[https://jekyllrb.com/docs/front-matter/](https://jekyllrb.com/docs/front-matter/)
 
 ## 语法问题
 
@@ -50,10 +54,10 @@ https://jekyllrb.com/docs/front-matter/
 
 ## mathjax
 
-各种配置项：https://docs.mathjax.org/en/v2.7-latest/config-files.html#common-configurations
+各种配置项：[https://docs.mathjax.org/en/v2.7-latest/config-files.html#common-configurations](https://docs.mathjax.org/en/v2.7-latest/config-files.html#common-configurations)
 
 
 # 可供参考的网站
 
-https://github.com/kevinfossez/kevinfossez.github.io
+[https://github.com/kevinfossez/kevinfossez.github.io](https://github.com/kevinfossez/kevinfossez.github.io)
 
