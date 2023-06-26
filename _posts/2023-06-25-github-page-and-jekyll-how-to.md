@@ -1,14 +1,15 @@
 ---
 title:  "使用github page和jekyll搭博客的记录"
 date:   2023-06-25 15:17:16 +0800
-categories: 
+tags:
+  - 教程
 ---
 
 # theme
 用的github排名第一的minimal-mistakes，https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
 
-# tag,category
-需要依赖liquid，但是liquid跟公式冲突，所以这个功能用不了了
+# tags,category
+tags可以用，category不建议用，加了会改变文章链接（以category为前缀，如果改类目了不方便）
 
 # 本机测试
 https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll
@@ -41,14 +42,11 @@ https://jekyllrb.com/docs/front-matter/
 
 ## 语法问题
 
-### 竖线的错误
-Note that LaTeX code that uses the pipe symbol | in inline math statements may lead to a line being recognized as a table line. This problem can be avoided by using the \vert command instead of |
-
-### {x}_1报错，改成x_1就ok了。。
-
-### *用\ast
-
-### 有\split的部分，整体公式用前后各两个dollar包起来
+* 竖线改成\vert。Note that LaTeX code that uses the pipe symbol | in inline math statements may lead to a line being recognized as a table line. This problem can be avoided by using the \vert command instead of |
+* {x}_1报错，改成x_1就ok了。。
+* *用\ast
+* 有\split的部分，整体公式用前后各两个dollar包起来
+* 公式#号说明：行内公式：\\#，独立公式\#
 
 ## mathjax
 

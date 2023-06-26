@@ -39,6 +39,7 @@ plugins:
 paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 
+# 没弄明白，好像要加好多文件，暂时关闭吧
 category_archive:
   type: liquid
   path: /categories/

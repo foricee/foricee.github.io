@@ -1,8 +1,10 @@
 ---
 title:  "word2vec之一：Negative Sampling的目标函数推导"
-date:   2023-06-12 15:00:00 +0800
-categories: [机器学习]
-tags: [word2vec, embedding]
+date:   2017-06-12 15:00:00 +0800
+tags:
+  - 机器学习
+  - word2vec 
+  - embedding
 ---
 
 >内容提要：
